@@ -1,0 +1,7 @@
+[worker]
+3.251.68.103
+52.212.110.199
+
+[worker:vars]
+ansible_ssh_private_key_file=/tmp/jaye.pem
+ansible_user=ec2-user

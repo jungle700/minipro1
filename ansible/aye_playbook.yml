@@ -1,0 +1,14 @@
+
+---
+  - hosts: worker
+    tasks:
+  
+      - name: Copy html file
+        copy:
+          src: ./index.html
+          dest: ./index.html
+          mode: '0777'
+        become: true
+  
+  
+        
